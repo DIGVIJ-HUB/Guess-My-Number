@@ -33,6 +33,7 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".number").textContent = secretNumber;
 
     document.querySelector("body").style.backgroundColor = "#60b347";
+    alert("Congratulation 🥳 ");
     document.querySelector(".number").style.width = "30rem";
 
     if (score > highscore) {
